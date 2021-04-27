@@ -1,24 +1,25 @@
 import React from 'react';
-import './CSS/style.css';
+import '/CSS/style.css';
 
-function Work() {
-    return (
-        <header>
-      <nav>
-        <ul>
-          <a href="#about_me"><li>About Me</li></a>
-          <a href="#work"><li>Work</li></a>
-          <a href="https://www.linkedin.com/in/dylan-korte/"><li>LinkedIn</li></a>
-         
-        </ul>
-      </nav>
 
-      <div className="circle-img-1">
-        <img src="assets/images/dylan-photo.jpg" />
-        <div className="my_name">Dylan Korte</div>
-      </div>
-    </header>
-      )
-  }
+function Body() {
+  return (
+    <section>
+    <div class="card">
+      <h2>About Me</h2>
+    </div>
+    <div class="content">
+      <p>
+        Jr. Front-end Web Developer, with Fullstack capabilities, human jungle
+        gym, yoga novice, resource collector/connector, and humble life-long
+        learner. Occupying the mental space between impassioned truth seeker
+        and peaceful believer, harmonizing client intent with dynamic web
+        solutions where form follows function.
+      </p>
+    </div>
+    <a name="about_me"></a>
+  </section>
+  )
+}
 
-export default Work;
+export default Body;

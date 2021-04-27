@@ -1,7 +1,7 @@
 import React from 'react';
-import ProfilePicture from './Images/Profile_picture.jpg';
-import './CSS/style.css';
-// import Nav from 'react-bootstrap/Nav';
+import ProfilePicture from '../Images/Profile_picture.jpg';
+import '/CSS/style.css';
+
 
 
 function Header() {

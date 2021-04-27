@@ -4,7 +4,7 @@ import Body from './Body';
 import Work from './Work';
 import Footer from './Footer';
 import './CSS/style.css';
-// import './App.css';
+// import 'App.css';
 
 class App extends Component {
   render() {

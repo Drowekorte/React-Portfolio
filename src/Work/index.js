@@ -1,7 +1,5 @@
 import React from 'react';
-import './CSS/style.css';
-// import Jumbotron  from "react-bootstrap";
-// import Nav from 'react-bootstrap/Nav';
+import '/CSS/style.css';
 
 
 function Work() {
@@ -15,37 +13,37 @@ function Work() {
           <a href="#newpage"
           ><img
           className="big_proj image middle"
-              src="assets/images/portfolio.jpg"
+              src="/Images/portfolio.jpg"
             /></a>
           <a href="https://note-taker--xyz.herokuapp.com/"
           ><img
           className="sm_proj1 image work_card"
-              src="assets/images/Note-Taker-gif.gif"
+              src="/Images/Note-Taker-gif.gif"
             /></a>
           <a href="https://github.com/Drowekorte/Employee-Tracker.git"
           ><img
           className="sm_proj2 image work_card "
-              src="assets/images/employee-tracker.gif"
+              src="/Images/employee-tracker.gif"
             /></a>
           <a href="#newpage"
           ><img
           className="sm_proj3 image work_card"
-              src="assets/images/Build-a-Band_logo.png"
+              src="/Images/Build-a-Band_logo.png"
             /></a>
           <a href="#newpage"
           ><img
           className="sm_proj1 image work_card"
-              src="assets/images/JS_Pass_Gen1 copy.jpg"
+              src="/Images/JS_Pass_Gen1 copy.jpg"
             /></a>
           <a href="http://www.bkdesignaz.com/"
           ><img
           className="sm_proj2 image work_card"
-              src="assets/images/website.jpg"
+              src="Images/website.jpg"
             /></a>
           <a href="#newpage"
           ><img
           className="sm_proj3 image work_card"
-              src="assets/images/code_quiz.jpg"
+              src="/Images/code_quiz.jpg"
             /></a>
         </div>
       </div>
