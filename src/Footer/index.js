@@ -1,7 +1,8 @@
 import React from 'react';
 
 
-function Work() {
+
+function Footer() {
   return (
     <section>
       <div className="card">
@@ -24,7 +25,7 @@ function Work() {
         </ul>
       </div>
       <a name="contact_me"></a>
-      <a href="#top">Back to top</a>
+      <footer><a href="#top">Back to top</a></footer>
     </section>
 
 
@@ -33,4 +34,4 @@ function Work() {
   )
 }
 
-export default Work;
+export default Footer;

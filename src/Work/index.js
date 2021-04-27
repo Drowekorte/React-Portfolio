@@ -1,5 +1,12 @@
 import React from 'react';
-import '/CSS/style.css';
+import portfolioWork from '../Images/portfolio.jpg';
+import noteTaker from '../Images/Note-Taker-gif.gif';
+import employeeTracker from '../Images/employee-tracker.gif';
+import buildABand from '../Images/Build-a-Band_logo.png';
+import passGen from '../Images/JS_Pass_Gen1 copy.jpg';
+import website from '../Images/website.jpg';
+import codeQuiz from '../Images/code_quiz.jpg';
+
 
 
 function Work() {
@@ -13,37 +20,37 @@ function Work() {
           <a href="#newpage"
           ><img
           className="big_proj image middle"
-              src="/Images/portfolio.jpg"
+              src={portfolioWork}
             /></a>
           <a href="https://note-taker--xyz.herokuapp.com/"
           ><img
           className="sm_proj1 image work_card"
-              src="/Images/Note-Taker-gif.gif"
+              src={noteTaker}
             /></a>
           <a href="https://github.com/Drowekorte/Employee-Tracker.git"
           ><img
           className="sm_proj2 image work_card "
-              src="/Images/employee-tracker.gif"
+              src={employeeTracker}
             /></a>
           <a href="#newpage"
           ><img
           className="sm_proj3 image work_card"
-              src="/Images/Build-a-Band_logo.png"
+              src={buildABand} 
             /></a>
           <a href="#newpage"
           ><img
           className="sm_proj1 image work_card"
-              src="/Images/JS_Pass_Gen1 copy.jpg"
+              src={passGen}
             /></a>
           <a href="http://www.bkdesignaz.com/"
           ><img
           className="sm_proj2 image work_card"
-              src="Images/website.jpg"
+              src={website}
             /></a>
           <a href="#newpage"
           ><img
           className="sm_proj3 image work_card"
-              src="/Images/code_quiz.jpg"
+              src={codeQuiz}
             /></a>
         </div>
       </div>
