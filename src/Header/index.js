@@ -1,6 +1,6 @@
 import React from 'react';
 import ProfilePicture from '../Images/Profile_picture.jpg';
-import '/CSS/style.css';
+
 
 
 

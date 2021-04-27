@@ -18,7 +18,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-image: url("/Images/horseshoe.jpg");
+  background-image: url("../Images/horseshoe.jpg");
   background-size: cover;
   background-position: center;
   margin-bottom: 5%;
@@ -189,7 +189,7 @@ footer a {
   header {
     height: 300px;
     width: 100%;
-    background-image: url("/Images/horseshoe.jpg");
+    background-image: url("../Images/horseshoe.jpg");
     background-size: cover;
     background-position: center;
     margin-bottom: 5%;
