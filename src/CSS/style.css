@@ -40,7 +40,7 @@ p {
 }
 
 .content p {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   color: var(--dark);
   line-height: 2rem;
 }
@@ -52,27 +52,31 @@ nav {
   width: 100%;
 }
 
-nav ul {
-  /* border: blue 2px solid; */
+.navUl {
   list-style: none;
   display: flex;
   justify-content: flex-end;
 }
 
-nav li {
-  color: var(--dark);
-}
-
-nav li:hover {
-  color: var(--hover);
-
-}
-
-nav a {
+.navItem {
+  /* border: blue 2px solid; */
+  width: 100px;
   text-decoration: none;
   margin-right: 2.5%;
   margin-left: 2.5%;
-  font-size: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.navItem :hover {
+  color: var(--hover);
+}
+
+.navLink {
+  color: var(--dark);
+  text-decoration: none;
+  margin-right: 1.5%;
+  font-size: 22px;
   cursor: pointer;
 }
 
@@ -114,7 +118,7 @@ nav a {
 
 .content a {
   color: var(--dark);
-  font-size: 20px;
+  font-size: 25px;
   cursor: pointer;
   font-weight: lighter;
   text-decoration: none;
@@ -124,7 +128,7 @@ nav a {
 .content li {
   list-style: none;
   color: var(--hover);
-  font-size: 20px;
+  font-size: 25px;
   font-weight: lighter;
   line-height: 40px;
 }
@@ -178,7 +182,7 @@ footer {
 
 footer a {
   color: var(--dark);
-  font-size: 20px;
+  font-size: 23px;
   cursor: pointer;
   font-weight: lighter;
   text-decoration: none;
@@ -196,26 +200,29 @@ footer a {
   }
 
   nav {
+    /* border: blue 2px solid; */
+    display: block;
+    height: auto;
+    width: 100%;
   }
-
-  nav ul {
+  
+  .navUl {
     width: 100%;
     display: block;
     background-color: var(--light);
   }
 
-  nav a {
+  .navLink {
     text-decoration: none;
     font-size: 1.5rem;
     display: block;
     padding: 10px;
   }
 
-  nav li {
+  .navItem {
     color: var(--dark);
     text-align: center;
   }
-
 
   .circle-img-1 {
     display: flex;
@@ -280,24 +287,36 @@ footer a {
 }
 
 @media all and (min-width: 500px) and (max-width: 729px) {
-  nav ul {
+  nav {
+    /* border: blue 2px solid; */
+    display: block;
+    height: auto;
     width: 100%;
+  }
+
+  .navUl {
+    /* border:rgb(201, 97, 97) 2px solid; */
+    width: 100%;
+    align-content: center;
     display: block;
     background-color: var(--light);
   }
 
-  nav a {
+  .navLink {
+    /* border:rgb(201, 97, 97) 2px solid; */
+    width: 100%;
     text-decoration: none;
     font-size: 1.5rem;
     display: block;
     padding: 10px;
   }
 
-  nav li {
+  .navItem {
+    /* border:rgb(201, 97, 97) 2px solid; */
     color: var(--dark);
     text-align: center;
+    width: 100%;
   }
-
 
   .circle-img-1 {
     display: flex;
@@ -358,4 +377,3 @@ footer a {
     padding-top: 10px;
   }
 }
-

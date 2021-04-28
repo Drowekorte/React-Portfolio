@@ -6,6 +6,7 @@ import buildABand from '../Images/Build-a-Band_logo.png';
 import passGen from '../Images/JS_Pass_Gen1 copy.jpg';
 import website from '../Images/website.jpg';
 import codeQuiz from '../Images/code_quiz.jpg';
+import { Link } from "react-router-dom";
 
 
 
@@ -17,44 +18,23 @@ function Work() {
       </div>
       <div className="content">
         <div className="work_cards crop">
-          <a href="#newpage"
-          ><img
-          className="big_proj image middle"
-              src={portfolioWork}
-            /></a>
-          <a href="https://note-taker--xyz.herokuapp.com/"
-          ><img
-          className="sm_proj1 image work_card"
-              src={noteTaker}
-            /></a>
-          <a href="https://github.com/Drowekorte/Employee-Tracker.git"
-          ><img
-          className="sm_proj2 image work_card "
-              src={employeeTracker}
-            /></a>
-          <a href="#newpage"
-          ><img
-          className="sm_proj3 image work_card"
-              src={buildABand} 
-            /></a>
-          <a href="#newpage"
-          ><img
-          className="sm_proj1 image work_card"
-              src={passGen}
-            /></a>
-          <a href="http://www.bkdesignaz.com/"
-          ><img
-          className="sm_proj2 image work_card"
-              src={website}
-            /></a>
-          <a href="#newpage"
-          ><img
-          className="sm_proj3 image work_card"
-              src={codeQuiz}
-            /></a>
+          <Link to="#newpage"><img className="big_proj image middle" alt="A large screenshot of Dylan's portfolio" src={portfolioWork} />
+          </Link>
+          <Link to="https://note-taker--xyz.herokuapp.com/"><img className="sm_proj1 image work_card" alt="A git of a note taker application" src={noteTaker}/>
+          </Link>
+          <Link to="https://github.com/Drowekorte/Employee-Tracker.git"><img className="sm_proj2 image work_card " alt="A terminal screenshot of an employee tracker" src={employeeTracker}/>
+          </Link>
+          <Link to="#newpage"><img className="sm_proj3 image work_card" alt="A fun cartoon monster with drumsticks" src={buildABand}/>
+          </Link>
+          <Link to="#newpage"><img className="sm_proj1 image work_card" alt="A large screenshot of a password generator application" src={passGen}/>
+          </Link>
+          <Link to="http://www.bkdesignaz.com/"><img className="sm_proj2 image work_card" alt="A screenshot of a website designed by Dylan" src={website}/>
+          </Link>
+          <Link to="#newpage"><img className="sm_proj3 image work_card" alt="A screenshot of a code quiz" src={codeQuiz}/>
+          </Link>
         </div>
       </div>
-      <a name="work"></a>
+      <Link name="work"></Link>
     </section>
   )
 }

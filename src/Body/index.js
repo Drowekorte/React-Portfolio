@@ -1,14 +1,14 @@
 import React from 'react';
-
+import { Link } from "react-router-dom";
 
 
 function Body() {
   return (
     <section>
-    <div class="card">
+    <div className="card">
       <h2>About Me</h2>
     </div>
-    <div class="content">
+    <div className="content">
       <p>
         Jr. Front-end Web Developer, with Fullstack capabilities, human jungle
         gym, yoga novice, resource collector/connector, and humble life-long
@@ -17,7 +17,7 @@ function Body() {
         solutions where form follows function.
       </p>
     </div>
-    <a name="about_me"></a>
+    <Link name="about_me"></Link>
   </section>
   )
 }

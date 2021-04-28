@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from "react-router-dom";
 
 
 function Contact() {
@@ -11,20 +11,18 @@ function Contact() {
 
       <div className="content">
         <ul>
-          <li>Phone:<a href="tel:602-363-0335">602.363.0335</a></li>
           <li>
-            Email:<a href="mailto:drowekorte@gmail.com">DRoweKorte@gmail.com</a>
+            Phone:<Link to="tel:602-363-0335">602.363.0335</Link>
           </li>
           <li>
-            Github:<a
-              href="https://github.com/Drowekorte/Portfolio"
-              target="_blank"
-              >@DylanKorte</a
-            >
+            Email:<Link to="mailto:drowekorte@gmail.com">DRoweKorte@gmail.com</Link>
+          </li>
+          <li>
+            Github:<Link href="https://github.com/Drowekorte/Portfolio">@DylanKorte</Link>
           </li>
         </ul>
       </div>
-      <a name="contact_me"></a>
+      <Link name="contact_me"></Link>
     </section>
   )
 }
