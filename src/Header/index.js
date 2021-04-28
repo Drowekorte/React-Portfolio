@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 import ProfilePicture from '../Images/Profile_picture.jpg';
 
 
@@ -8,9 +7,9 @@ function Header() {
     <header>
       <nav>
         <ul className="navUl">
-          <li className="navItem"><Link className="navLink" to="#about_me">About Me</Link></li>
-          <li className="navItem"><Link className="navLink" to="#work">Work</Link></li>
-          <li className="navItem"><Link className="navLink" to="https://www.linkedin.com/in/dylan-korte/">LinkedIn</Link></li>
+          <li className="navItem"><a className="navLink" href="#about_me">About Me</a></li>
+          <li className="navItem"><a className="navLink" href="#work">Work</a></li>
+          <li className="navItem"><a href="https://www.linkedin.com/in/dylan-korte/" className="navLink">LinkedIn</a></li>
         </ul>
       </nav>
 

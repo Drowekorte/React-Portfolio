@@ -18,20 +18,20 @@ function Work() {
       </div>
       <div className="content">
         <div className="work_cards crop">
-          <Link to="#newpage"><img className="big_proj image middle" alt="A large screenshot of Dylan's portfolio" src={portfolioWork} />
-          </Link>
-          <Link to="https://note-taker--xyz.herokuapp.com/"><img className="sm_proj1 image work_card" alt="A git of a note taker application" src={noteTaker}/>
-          </Link>
-          <Link to="https://github.com/Drowekorte/Employee-Tracker.git"><img className="sm_proj2 image work_card " alt="A terminal screenshot of an employee tracker" src={employeeTracker}/>
-          </Link>
-          <Link to="#newpage"><img className="sm_proj3 image work_card" alt="A fun cartoon monster with drumsticks" src={buildABand}/>
-          </Link>
-          <Link to="#newpage"><img className="sm_proj1 image work_card" alt="A large screenshot of a password generator application" src={passGen}/>
-          </Link>
-          <Link to="http://www.bkdesignaz.com/"><img className="sm_proj2 image work_card" alt="A screenshot of a website designed by Dylan" src={website}/>
-          </Link>
-          <Link to="#newpage"><img className="sm_proj3 image work_card" alt="A screenshot of a code quiz" src={codeQuiz}/>
-          </Link>
+          <a href="#newpage"><img className="big_proj image middle" alt="A large screenshot of Dylan's portfolio" src={portfolioWork} />
+          </a>
+          <a href="https://note-taker--xyz.herokuapp.com/"><img className="sm_proj1 image work_card" alt="A git of a note taker application" src={noteTaker}/>
+          </a>
+          <a href="https://github.com/Drowekorte/Employee-Tracker.git"><img className="sm_proj2 image work_card " alt="A terminal screenshot of an employee tracker" src={employeeTracker}/>
+          </a>
+          <a href="#newpage"><img className="sm_proj3 image work_card" alt="A fun cartoon monster with drumsticks" src={buildABand}/>
+          </a>
+          <a href="#newpage"><img className="sm_proj1 image work_card" alt="A large screenshot of a password generator application" src={passGen}/>
+          </a>
+          <a href="http://www.bkdesignaz.com/"><img className="sm_proj2 image work_card" alt="A screenshot of a website designed by Dylan" src={website}/>
+          </a>
+          <a href="#newpage"><img className="sm_proj3 image work_card" alt="A screenshot of a code quiz" src={codeQuiz}/>
+          </a>
         </div>
       </div>
       <Link name="work"></Link>
