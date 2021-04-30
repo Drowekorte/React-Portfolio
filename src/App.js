@@ -1,21 +1,26 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import Header from './Header';
-import Body from './Body';
-import Work from './Work';
-import Contact from './Contact';
-import Footer from './Footer';
+import Header from './components/Header';
+import Work from './pages/Work';
+import Contact from './pages/Contact';
+import Footer from './components/Footer';
 
 
 class App extends Component {
+  state = {
+    currentPage: ""
+  }
   render() {
     return (
       <Router>
         <div>
           <Header />
-          <Body />
-          <Work />
-          <Contact />
+          <Wrapper>
+            <Route exact path="/" component={Body} />
+            <Route exact path="/about" component={Body} />
+            <Route exact path="/discover" component={Work} />
+            <Route exact path="/search" component={Contact} />
+          </Wrapper>
           <Footer />
         </div>
       </Router>

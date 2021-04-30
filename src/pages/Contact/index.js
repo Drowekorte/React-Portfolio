@@ -12,17 +12,17 @@ function Contact() {
       <div className="content">
         <ul>
           <li>
-            Phone:<Link to="tel:602-363-0335">602.363.0335</Link>
+            Phone:<a href="tel:602-363-0335">602.363.0335</a>
           </li>
           <li>
-            Email:<Link to="mailto:drowekorte@gmail.com">DRoweKorte@gmail.com</Link>
+            Email:<a href="mailto:drowekorte@gmail.com">DRoweKorte@gmail.com</a>
           </li>
           <li>
-            Github:<Link href="https://github.com/Drowekorte/Portfolio">@DylanKorte</Link>
+            Github:<a href="https://github.com/Drowekorte/Portfolio">@DylanKorte</a>
           </li>
         </ul>
       </div>
-      <Link name="contact_me"></Link>
+      <a name="contact_me"></a>
     </section>
   )
 }

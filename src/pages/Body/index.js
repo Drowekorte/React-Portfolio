@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 
 
 function Body() {
@@ -17,7 +16,7 @@ function Body() {
         solutions where form follows function.
       </p>
     </div>
-    <Link name="about_me"></Link>
+    <a name="about_me"></a>
   </section>
   )
 }
