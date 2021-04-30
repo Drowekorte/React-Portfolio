@@ -1,31 +1,34 @@
 import React from 'react';
-import ProfilePicture from '../Images/Profile_picture.jpg';
+import { Link } from "react-router-dom";
+import ProfilePicture from '../../Images/Profile_picture.jpg';
 
 
-function Header(props) {
+function Header() {
   return (
     <header>
       <nav>
         <ul className="navUl">
           <li className="navItem">
-            <a
-              className="navLink"
-              href="#about_me"
-              onClick={() => props.handlePageChange("About Me")}
-              className={props.currentPage === "About Me" ? "nav-link active" : "nav-link"}>About Me</a>
+            <Link
+              to="/"
+              className={window.location.pathname === "/" || window.location.pathname === "/about"
+                ? "navLink active"
+                : "navLink"}>
+              About Me
+            </Link>
+          </li>
+          <li className="navItem">
+          <Link
+              to="/"
+              className={window.location.pathname === "/work" || window.location.pathname === "/work"
+                ? "navLink active"
+                : "navLink"}>
+              Work
+            </Link>
           </li>
           <li className="navItem">
             <a className="navLink"
-              href="#work"
-              onClick={() => props.handlePageChange("Work")}
-              className={props.currentPage === "Work" ? "nav-link active" : "nav-link"}>Work</a>
-          </li>
-          <li className="navItem">
-            <a className="navLink"
-              href="https://www.linkedin.com/in/dylan-korte/"
-              onClick={() => props.handlePageChange("LinkedIn")}
-              target="_blank"
-              className={props.currentPage === "LinkedIn" ? "nav-link active" : "nav-link"}>LinkedIn</a>
+              href="https://www.linkedin.com/in/dylan-korte/">LinkedIn</a>
           </li>
         </ul>
       </nav>

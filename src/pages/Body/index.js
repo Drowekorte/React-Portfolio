@@ -16,7 +16,6 @@ function Body() {
         solutions where form follows function.
       </p>
     </div>
-    <a name="about_me"></a>
   </section>
   )
 }

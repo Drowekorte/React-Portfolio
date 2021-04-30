@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 
 
 function Contact() {
@@ -22,7 +21,6 @@ function Contact() {
           </li>
         </ul>
       </div>
-      <a name="contact_me"></a>
     </section>
   )
 }

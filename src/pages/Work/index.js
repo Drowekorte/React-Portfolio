@@ -1,11 +1,11 @@
 import React from 'react';
-import portfolioWork from './Images/portfolio.jpg';
-import noteTaker from './Images/Note-Taker-gif.gif';
-import employeeTracker from './Images/employee-tracker.gif';
-import buildABand from './Images/Build-a-Band_logo.png';
-import passGen from './Images/JS_Pass_Gen1 copy.jpg';
-import website from './Images/website.jpg';
-import codeQuiz from './Images/code_quiz.jpg';
+import portfolioWork from '../../Images/portfolio.jpg';
+import noteTaker from '../../Images/Note-Taker-gif.gif';
+import employeeTracker from '../../Images/employee-tracker.gif';
+import buildABand from '../../Images/Build-a-Band_logo.png';
+import passGen from '../../Images/JS_Pass_Gen1 copy.jpg';
+import website from '../../Images/website.jpg';
+import codeQuiz from '../../Images/code_quiz.jpg';
 
 
 
@@ -33,7 +33,6 @@ function Work() {
           </a>
         </div>
       </div>
-      <a name="work"></a>
     </section>
   )
 }
