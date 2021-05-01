@@ -1,5 +1,5 @@
 import React from 'react';
-import portfolioWork from '../../Images/portfolio.jpg';
+import portfolioWork from '../../Images/Mellow-Mama.png';
 import noteTaker from '../../Images/Note-Taker-gif.gif';
 import employeeTracker from '../../Images/employee-tracker.gif';
 import buildABand from '../../Images/Build-a-Band_logo.png';

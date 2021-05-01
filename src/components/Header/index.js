@@ -19,7 +19,7 @@ function Header() {
           </li>
           <li className="navItem">
           <Link
-              to="/"
+              to="/work"
               className={window.location.pathname === "/work" || window.location.pathname === "/work"
                 ? "navLink active"
                 : "navLink"}>
