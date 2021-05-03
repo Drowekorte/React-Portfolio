@@ -21,16 +21,16 @@ My redesigned portfolio using React.js.
   
 ## Technology Used
 
-HTML
-CSS
-JavaScript
-React.js
-Node.js
+* HTML
+* CSS
+* JavaScript
+* React.js
+* Node.js
 
   
 ## Screenshot
 
-![Weather App](./Images/portfolio.jpg)
+![React Portfolio](./src/Images/portfolio.jpg)
 
 
 ## Questions
